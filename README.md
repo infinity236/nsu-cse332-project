@@ -24,9 +24,11 @@ A project for NSU CSE332 (Computer Organization and Architecture) based on a pro
 - Test programs validate function calls, branching, memory access, and ALU ops.
 
 ## Quick start (Mac)
-1. Build assembler (if source available)
+1. Compile the assembler
+  - Download from: https://github.com/infinity236/UpgradedMIPS32Assembler
+
 ```bash
-cd Assembler
+cd UpgradedMIPS32Assembler
 g++ -O2 -std=c++17 -o MipsAssembler finalassembler.cpp
 ```
 
@@ -38,6 +40,7 @@ g++ -O2 -std=c++17 -o MipsAssembler finalassembler.cpp
 # hexadecimal formatted output
 ./MipsAssembler --hex input.s output.text
 ```
+
 
 3. Load into Verilog testbench
 - For binary text use `$readmemb("instruction.mem", Imem);`
