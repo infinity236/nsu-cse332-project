@@ -60,7 +60,7 @@ vsim MIPS_SCP_tb.v -do "run -all"
 /Verilog/           # Verilog source files
 /Programs/          # Assembly test programs
 /Screenshots/       # ModelSim, CPUlator screenshots
-/Report/            # LaTeX report and PDF
+Report.pdf          # LaTeX report and PDF
 README.md
 ```
 

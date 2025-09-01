@@ -9,9 +9,12 @@ main:
     la      $t0,            length
     lw      $s1,            0($t0)
     jal     min
+    sw      $s4,            60($s0)
     jal     max
+    sw      $s3,            64($s0)
     jal     mean
     move    $s2,            $v0
+    sw      $s2,            68($s0)
     j       exit
 
     # ----- MIN ----- #
@@ -89,5 +92,3 @@ end_division:
     jr      $ra
 exit:
     nop
-
-
