@@ -73,4 +73,4 @@ README.md
 
 ## Notes
 - This project builds on faculty-provided CPU and assembler; contributions focused on correctness (jal/jr, assembler fixes) and validation.
-- See /Report/Report.tex for full technical details, diagrams, and benchmarking results.
+- See Report.pdf for full technical details, diagrams, and benchmarking results.
